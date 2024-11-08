@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Imagen del anime -->
+    <ImageView
+        android:id="@+id/imageAnime"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop" />
+
+    <!-- Título del anime -->
+    <TextView
+        android:id="@+id/titleAnime"
+        android:layout_width="371dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Episodios del anime -->
+    <TextView
+        android:id="@+id/episodesAnime"
+        android:layout_width="374dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_epsodios"
+        android:layout_width="359dp"
+        android:layout_height="75dp"
+        android:text="Ver episodios" />
+
+</LinearLayout>
